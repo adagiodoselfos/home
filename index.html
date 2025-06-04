@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Adágio dos Elfos</title>
+
+  <!-- Estilo CSS interno -->
+  <style>
+    /* Define estilo geral da página (cor de fundo clara e sem margem) */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f7f3;
+    }
+
+    /* Estilo da barra superior com botão do YouTube */
+    .top-bar {
+      background-color: #fefdf9;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .top-bar button {
+      padding: 5px 10px;
+      margin-left: 10px;
+      border: 1px solid black;
+      background: white;
+      cursor: pointer;
+    }
+
+    /* Cabeçalho com logotipo e menu */
+    header {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav a.active {
+      font-weight: bold;
+      color: black;
+    }
+
+    /* Seção principal com imagem de fundo */
+    .hero {
+      /* Aqui você coloca a imagem de fundo da página principal */
+      background-image: url('URL-DA-IMAGEM-DE-FUNDO-AQUI.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    /* Seção de introdução */
+    .intro {
+      padding: 40px;
+      background-color: #f3efe6;
+      text-align: center;
+    }
+
+    /* Seção de vídeo e imagens */
+    .content {
+      padding: 40px;
+      background-color: #8b7650; /* marrom como no segundo print */
+      text-align: center;
+    }
+
+    .youtube-video {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto 30px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra superior com botão do YouTube -->
+  <div class="top-bar">
+    SUBSCREVE-TE NO YOUTUBE
+    <button>MEU CANAL</button>
+  </div>
+
+  <!-- Cabeçalho com logotipo e menu -->
+  <header>
+    <div class="logo">Adágio dos Elfos</div>
+    <nav>
+      <a href="#" class="active">Página inicial</a>
+      <a href="#">Onde Comprar</a>
+      <a href="#">Os Livros</a>
+      <a href="#">Personagens</a>
+      <a href="#">O Mundo Havilá</a>
+      <a href="#">O Autor</a>
+      <a href="#">Contactos</a>
+    </nav>
+  </header>
+
+  <!-- Imagem de fundo e título -->
+  <section class="hero">
+    <h1>Adágio dos Elfos</h1>
+  </section>
+
+  <!-- Texto de introdução -->
+  <section class="intro">
+    <p><strong>Bem-vindo(a) ao site oficial da série de livros <em>Adágio dos Elfos</em>.</strong></p>
+    <p>
+      Aqui encontrarás informações sobre o livro, o autor, o mundo fantasioso Havilá (suas raças e lugares),
+      mas também descobrirás onde podes comprar o teu exemplar.
+    </p>
+  </section>
+
+  <!-- Vídeo e galeria de imagens -->
+  <section class="content">
+    <!-- Incorpore seu vídeo do YouTube aqui -->
+    <div class="youtube-video">
+      <iframe width="100%" height="415" src="https://www.youtube.com/embed/COLE-O-LINK-DO-VÍDEO-AQUI" 
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Galeria de imagens -->
+    <div class="gallery">
+      <!-- Substitua os links abaixo pelas URLs das imagens do seu site -->
+      <img src="URL-IMAGEM-1.jpg" alt="Imagem 1">
+      <img src="URL-IMAGEM-2.jpg" alt="Imagem 2">
+      <img src="URL-IMAGEM-3.jpg" alt="Imagem 3">
+      <img src="URL-IMAGEM-4.jpg" alt="Imagem 4">
+    </div>
+  </section>
+
+</body>
+</html>
